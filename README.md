@@ -2,7 +2,7 @@
 
 This Python project demonstrates how to use Vedo, a powerful module for scientific visualization, analysis, and animation of 3D objects, to visualize medical imaging data. The code includes functions to open and visualize STL (Stereolithography) and NIfTI (Neuroimaging Informatics Technology Initiative) files, which are widely used in medical imaging.
 
-<img width="722" alt="stl" src="https://github.com/amine0110/vedo-visualization/assets/37108394/81709d6e-616a-4b82-90f1-f0f493482e5c">
+<img width="722" alt="stl" src="https://github.com/amine0110/vedo-visualization/assets/37108394/cfdd6c5a-aff0-46ca-a350-8b7481a4013f">
 
 ## Installation
 To run this code, you will need to have Python installed on your machine. This project also uses the vedo library, which you can install via pip:
