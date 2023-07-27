@@ -1,7 +1,7 @@
 from vedo import load, show, Volume
 
-path_nifti = "volume.nii.gz"
-path_stl = "output_file.stl"
+path_nifti = "./data/volume.nii.gz"
+path_stl = "./data/output_file.stl"
 
 def visualize_stl(path_to_file, bg=(1,1,1), mesh_color=(1,0,0)):
     # Load an STL file
