@@ -1,45 +1,36 @@
-# 3D Medical Imaging Visualization with Vedo
+# Vedo Tutorials Hub
 
-This Python project demonstrates how to use Vedo, a powerful module for scientific visualization, analysis, and animation of 3D objects, to visualize medical imaging data. The code includes functions to open and visualize STL (Stereolithography) and NIfTI (Neuroimaging Informatics Technology Initiative) files, which are widely used in medical imaging.
+This repository serves as a collection of tutorials and examples showcasing the capabilities of Vedo, a powerful Python module for scientific visualization, analysis, and animation of 3D objects. Whether you're diving into 3D medical imaging visualization, 3D mesh cutting, or exploring other facets of 3D visualization, this hub is for you.
 
-<img width="722" alt="stl" src="https://github.com/amine0110/vedo-visualization/assets/37108394/cfdd6c5a-aff0-46ca-a350-8b7481a4013f">
+![Vedo tutorials](https://github.com/amine0110/vedo-tutorials/assets/37108394/18695723-8a30-4d48-85d6-addf4ce30b6c)
+
+## 📂 Repository Structure
+- medical_imaging_visualization: Demonstrates the visualization of STL and NIfTI files, commonly used in medical imaging.
+- 3D_mesh_cutting: A tutorial on precision 3D mesh cutting with Vedo.
+
+> More tutorials will be added over time. Stay tuned!
 
 ## Installation
-To run this code, you will need to have Python installed on your machine. This project also uses the vedo library, which you can install via pip:
+To experiment with the tutorials, you need Python installed. Additionally, all tutorials use the Vedo library:
 ```
 pip install vedo
 ```
 
-## Usage
-To use this code, you will need to have STL and NIfTI files available. These are not included in the repository.
+## 📚 Tutorials
+### 1. Medical Imaging Visualization
+Dive deep into visualizing medical images in 3D. Open and render STL and NIfTI files with ease.
+- [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/visualization.py)
+- [Read Full Tutorial](https://pycad.co/3d-visualization-with-python-and-vedo/)
+- [Watch the YouTube video](https://youtu.be/lPoZJFrYtL0)
 
-Here's how you can visualize an STL or NIfTI file:
+### 2. Precision 3D Mesh Cutting
+Master the art of precisely slicing 3D models and unveiling their internal structure.
+- [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/3d_mesh_cut.py)
+- [Read Full Tutorials](https://pycad.co/3d-mesh-cutter/)
+- [Watch the YouTube video](https://youtu.be/dmXC078ZOR4)
 
-```Python
-from vedo import load, show, Volume
-
-path_nifti = "path_to_your_file.nii.gz"
-path_stl = "path_to_your_file.stl"
-
-def visualize_stl(path_to_file, bg=(1,1,1), mesh_color=(1,0,0)):
-    # Load an STL file
-    mesh = load(path_to_file)
-    mesh.color(mesh_color)
-
-    # Show the mesh
-    show(mesh, bg=bg)
-
-def visualize_nifti(path_to_file, bg=(1,1,1), mesh_color=(1,0,0)):
-    # Load a NIfTI file
-    vol = Volume(path_to_file)
-
-    # Show the volume
-    show(vol, bg=bg)
-
-visualize_stl(path_stl)
-visualize_nifti(path_nifti)
-
-```
+## Contributing
+While this repository is primarily a collection of my tutorials, I'm open to contributions. If you've got a unique Vedo tutorial or an enhancement to an existing one, feel free to create a pull request.
 
 ## 🏫 Courses
 
