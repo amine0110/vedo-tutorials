@@ -8,6 +8,7 @@ This repository serves as a collection of tutorials and examples showcasing the 
 - **medical_imaging_visualization**: Demonstrates the visualization of STL and NIfTI files, commonly used in medical imaging.
 - **3D_mesh_cutting**: A tutorial on precision 3D mesh cutting with Vedo.
 - **3d_mesh_capturing**: A tutorial on how to do a screenshot of a rendered 3D mesh.
+- **visualize_multi_objects**: A tutorial on how to visualize multiple 3D objects.
 
 > More tutorials will be added over time. Stay tuned!
 
@@ -34,6 +35,12 @@ Master the art of precisely slicing 3D models and unveiling their internal struc
 Learn the art of capturing high-quality screenshots of your 3D STL meshes, perfect for presentations, documentation, or sharing with colleagues.
 - [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/3d_mesh_screenshot.py)
 - [Read Full Tutorial](https://pycad.co/how-to-capture-3d-mesh-screenshots-with-vedo/)
+- Watch the YouTube video.
+
+### 4. Multiple 3D Mesh Visualization
+Learn how to visualize multiple 3D objects at the same viewer.
+- [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/visualize_multi_objects.py)
+- [Read Full Tutorial](https://pycad.co/visualizing-multiple-3d-objects-with-vedo-in-medical-imaging/)
 - Watch the YouTube video.
 
 ## 💁‍♂️ Contributing
