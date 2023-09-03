@@ -9,6 +9,7 @@ This repository serves as a collection of tutorials and examples showcasing the 
 - **3D_mesh_cutting**: A tutorial on precision 3D mesh cutting with Vedo.
 - **3d_mesh_capturing**: A tutorial on how to do a screenshot of a rendered 3D mesh.
 - **visualize_multi_objects**: A tutorial on how to visualize multiple 3D objects.
+- **streamlit_vedo_visualization**: A tutorial on how to use streamlit and vedo for visualization.
 
 > More tutorials will be added over time. Stay tuned!
 
@@ -41,6 +42,12 @@ Learn the art of capturing high-quality screenshots of your 3D STL meshes, perfe
 Learn how to visualize multiple 3D objects at the same viewer.
 - [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/visualize_multi_objects.py)
 - [Read Full Tutorial](https://pycad.co/visualizing-multiple-3d-objects-with-vedo-in-medical-imaging/)
+- Watch the YouTube video.
+
+### 5. Streamlit and Vedo for Mesh Visualization
+Learn how to show your 3D meshes using streamlit and vedo.
+- [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/streamlit_vedo_visualization.py).
+- Read Full Tutorial.
 - Watch the YouTube video.
 
 ## 💁‍♂️ Contributing
