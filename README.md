@@ -47,7 +47,7 @@ Learn how to visualize multiple 3D objects at the same viewer.
 ### 5. Streamlit and Vedo for Mesh Visualization
 Learn how to show your 3D meshes using streamlit and vedo.
 - [See Code](https://github.com/amine0110/vedo-tutorials/blob/main/streamlit_vedo_visualization.py).
-- Read Full Tutorial.
+- [Read Full Tutorial](https://pycad.co/interactive-3d-visualization-with-vedo-and-streamlit/).
 - Watch the YouTube video.
 
 ## 💁‍♂️ Contributing
